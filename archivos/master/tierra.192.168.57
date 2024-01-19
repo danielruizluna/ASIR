@@ -1,0 +1,17 @@
+;
+; zone sistema.sol
+;
+$TTL	 86400
+57.168.192.in-addr.arpa.	 IN	 SOA	 tierra.sistema.sol. user.sistema.sol. (
+				 1		 ; Serial
+				 3600		 ; Refresh	
+				 1800		 ; Retry
+				 604800		 ; Expire
+				 7200 )		 ; Negative Cache TTL
+;
+57.168.192.in-addr.arpa.	 IN	 NS	 tierra.sistema.sol.
+57.168.192.in-addr.arpa.	 IN	 NS	 venus.sistema.sol.
+103.57.168.192.in-addr.arpa.	 IN	 PTR	 tierra.sistema.sol.
+102.57.168.192.in-addr.arpa.	 IN	 PTR	 venus.sistema.sol.
+104.57.168.192.in-addr.arpa.	 IN	 PTR	 marte.sistema.sol.
+101.57.168.192.in-addr.arpa.	 IN	 PTR	 mercurio.sistema.sol.
