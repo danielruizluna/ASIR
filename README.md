@@ -1,4 +1,4 @@
-This file contains an explanation of the configuration files por the DNS servers in sistema.sol. We will include one master and one slave server. The following configurations will be applied to both of them.
+This file contains an explanation of the configuration files for the DNS servers in sistema.sol. We will include one master and one slave server. The following configurations will be applied to both of them.
 ### /etc/network/interfaces
 Both servers need a fixed ip, here is an example of one of them:
 ```
